@@ -1,0 +1,2 @@
+<h1><a href="<?php e($_s['base_url']);?>/"><?php e($_s['blogname']); ?></a></h1>
+<p><?php e($_s['blogdescription']); ?></p>

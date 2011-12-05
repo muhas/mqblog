@@ -1,0 +1,3 @@
+<a class="menu" href="http://mqblog.ru/page/Dokumentaciya">Документация</a>
+<?php mscat_show('<a href="%link%" class="menu">%name%</a>'); ?>
+
