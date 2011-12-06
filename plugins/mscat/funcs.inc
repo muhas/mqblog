@@ -13,7 +13,7 @@ function mscat_show($tpl) {
 	global $_s;
 	if($_s['config_chpu'] == "1") $tchpu=$_s['base_url'].'/tag/';
         else $tchpu=$_s['base_url'].'/?t=';
-    $f=file_get_contents($_s['data_dir'].'/mscat/category');
+        $f=file_get_contents($_s['data_dir'].'/mscat/category');
 	$mscat=explode('||',$f);
 	$alltags="";
 	foreach ($mscat as $k=>$v) {

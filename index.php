@@ -1,7 +1,7 @@
 <?php
 // Mosquito non-mysql php blog-engine with plugins
 // © Zorg <ekumena@gmail.com>, 2007-2008
-// © muhas <muhas@muhas.ru>, 2009-2010
+// © muhas <muhas@muhas.ru>, 2009-2011
 // лицензия GNU GPL (http://www.gnu.org/licenses/gpl.html)
 error_reporting(E_ALL & !~E_NOTICE);
 header('Content-Type: text/html; charset=utf-8');
