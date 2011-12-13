@@ -373,7 +373,7 @@ function comment_menu() {
         $cmnt['ed'] = '<a href="'.$_s['base_url'].'/?action=edit_comment&amp;c='.$i.'&amp;p='.$_v['p'].'">'.$_l['cmnt_ed'].'</a>';
         $d='';  if($_s['confirm_attach']) $d = 'onclick="return confirm(\''.$_l['confirm'].'\')"';
         $cmnt['del_attach'] = '<a href="'.$_s['base_url'].'/?action=del_attach&amp;c='.$i.'&amp;p='.$_v['p'].'" '.$d.'>'.$_l['del_attach'].'</a>';
-		if(@$cmnt['priv']==1) $cmnt['himnu']="<a href='".$_s['base_url']."'/?action=unhide_comment&amp;c=".$i."&amp;p=".$post['id']."'>".$_l['cmnt_op']."</a>";
+		if(@$cmnt['priv']==1) $cmnt['himnu']="<a href='".$_s['base_url'].'/?action=unhide_comment&amp;c=".$i."&amp;p=".$post['id']."'>".$_l['cmnt_op']."</a>";
 		else
 		$cmnt['himnu']="<a href='".$_s['base_url']."/?action=hide_comment&amp;c=".$i."&amp;p=".$post['id']."'>".$_l['cmnt_hi']."</a>";
         $cmnt['menu']=$cmnt['del'].$cmnt['ed'].$cmnt['himnu'];
